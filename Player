@@ -1,0 +1,65 @@
+
+public class Player extends Stats{
+	private int maxHP;
+	private int maxMana;
+	private int speed;
+	private int pAttack;
+	private int mAttack;
+	private int pDefence;
+	private int mDefence;
+	private Moves move;
+	public void createPlayer(int[] s, String[] moves, MoveList list, String CLS) {
+		setM(s);
+		maxHP = s[6];
+		maxMana = s[7];
+		speed = s[8];
+		pAttack = s[9];
+		mAttack = s[10];
+		pDefence = s[11];
+		mDefence = s[12];
+		move = new Moves(moves,list,CLS);
+	}
+	public int getMaxHP() {
+		return maxHP;
+	}
+	public void setMaxHP(int maxHP) {
+		this.maxHP = maxHP;
+	}
+	public int getMaxMana() {
+		return maxMana;
+	}
+	public void setMaxMana(int maxMana) {
+		this.maxMana = maxMana;
+	}
+	public int getSpeed() {
+		return speed;
+	}
+	public void setSpeed(int speed) {
+		this.speed = speed;
+	}
+	public int getpAttack() {
+		return pAttack;
+	}
+	public void setpAttack(int pAttack) {
+		this.pAttack = pAttack;
+	}
+	public int getmAttack() {
+		return mAttack;
+	}
+	public void setmAttack(int mAttack) {
+		this.mAttack = mAttack;
+	}
+	public int getpDefence() {
+		return pDefence;
+	}
+	public void setpDefence(int pDefence) {
+		this.pDefence = pDefence;
+	}
+	public int getmDefence() {
+		return mDefence;
+	}
+	public void setmDefence(int mDefence) {
+		this.mDefence = mDefence;
+	}
+	
+}
