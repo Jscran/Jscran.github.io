@@ -1,0 +1,169 @@
+
+public class MoveList {
+	private String[] warrior;
+	private int[] warriorI;
+	private String[] wizard;
+	private int[] wizardI;
+	private String[] ranger;
+	private int[] rangerI;
+	private String[] cleric;
+	private int[] clericI;
+	private String[] sorcerer;
+	private int[] sorcererI;
+	private String[] rouge;
+	private int[] rougeI;
+	private String[] witch;
+	private int[] witchI;
+	private String[] warlock;
+	private int[] warlockI;
+	private String[] artificer;
+	private int[] artificerI;
+	private String[] bard;
+	private int[] bardI;
+	public String[] getWizard() {
+		return wizard;
+	}
+	public void setWizard(String[] wizard) {
+		wizard = new String[11];
+		wizard[0] = "FireBall";
+		wizard[1] = "IceShard";
+		wizard[2] = "Shock";
+		wizard[3] = "RockThrow";
+		wizard[4] = "FireWall";
+		wizard[5] = "IceSpire";
+		wizard[6] = "Bolt";
+		wizard[7] = "RockTomb";
+		wizard[8] = "FireSpire";
+		wizard[9] = "Blizzard";
+		wizard[10] = "Lighting";
+		wizard[11] = "RockSlide";
+		
+	}
+	public int getWizardI(int a) {
+		return wizardI[a];
+	}
+	public void setWizardI(int[] wizardI) {
+		wizardI = new int[11];
+		wizardI[0] = 5;
+		wizardI[1] = 5;
+		wizardI[2] = 9;
+		wizardI[3] = 3;
+		wizardI[4] = 15;
+		wizardI[5] = 15;
+		wizardI[6] = 18;
+		wizardI[7] = 12;
+		wizardI[8] = 30;
+		wizardI[9] = 30;
+		wizardI[10] = 33;
+		wizardI[11] = 22;
+	}
+	public String[] getRanger() {
+		return ranger;
+	}
+	public void setRanger(String[] ranger) {
+		
+	}
+	public int[] getRangerI() {
+		return rangerI;
+	}
+	public void setRangerI(int[] rangerI) {
+		
+	}
+	public String[] getWarrior() {
+		return warrior;
+	}
+	public void setWarrior(String[] warrior) {
+		
+	}
+	public int[] getWarriorI() {
+		return warriorI;
+	}
+	public void setWarriorI(int[] warriorI) {
+		
+	}
+	public String[] getCleric() {
+		return cleric;
+	}
+	public void setCleric(String[] cleric) {
+		
+	}
+	public int[] getClericI() {
+		return clericI;
+	}
+	public void setClericI(int[] clericI) {
+		
+	}
+	public String[] getSorcerer() {
+		return sorcerer;
+	}
+	public void setSorcerer(String[] sorcerer) {
+		
+	}
+	public int[] getSorcererI() {
+		return sorcererI;
+	}
+	public void setSorcererI(int[] sorcererI) {
+		
+	}
+	public String[] getRouge() {
+		return rouge;
+	}
+	public void setRouge(String[] rouge) {
+		
+	}
+	public int[] getRougeI() {
+		return rougeI;
+	}
+	public void setRougeI(int[] rougeI) {
+		
+	}
+	public String[] getWitch() {
+		return witch;
+	}
+	public void setWitch(String[] witch) {
+		
+	}
+	public int[] getWitchI() {
+		return witchI;
+	}
+	public void setWitchI(int[] witchI) {
+		
+	}
+	public String[] getWarlock() {
+		return warlock;
+	}
+	public void setWarlock(String[] warlock) {
+		
+	}
+	public int[] getWarlockI() {
+		return warlockI;
+	}
+	public void setWarlockI(int[] warlockI) {
+		
+	}
+	public String[] getArtificer() {
+		return artificer;
+	}
+	public void setArtificer(String[] artificer) {
+		
+	}
+	public int[] getArtificerI() {
+		return artificerI;
+	}
+	public void setArtificerI(int[] artificerI) {
+		
+	}
+	public String[] getBard() {
+		return bard;
+	}
+	public void setBard(String[] bard) {
+		
+	}
+	public int[] getBardI() {
+		return bardI;
+	}
+	public void setBardI(int[] bardI) {
+		
+	}
+	
+}
