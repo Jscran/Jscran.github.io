@@ -1,0 +1,27 @@
+
+public class Moves {
+	private String[] set;
+	private MoveList list;
+	private String CLS;
+	public Moves(String[] s, MoveList l, String c) {
+		for(int i=0; i<s.length; i++) {
+			set[i] = s[i];
+		}
+		list = l;
+		CLS = c;
+	}
+	public int getMoveStat(String move) {
+		String[] i;
+		int c = 0;
+		if(CLS.equals("wizard")) {
+			i = list.getWizard();
+			while(i[c].equals(move)) {
+				c++;
+			}
+			return list.getWizardI(c);
+		}
+		return 0;
+		
+	}
+	
+}
