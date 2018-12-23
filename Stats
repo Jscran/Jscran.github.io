@@ -1,0 +1,61 @@
+
+public class Stats {
+	private int Strength;
+	private int Dexturity;
+	private int Constitution;
+	private int Intelligence;
+	private int Wisdom;
+	private int Charisma;
+	public Stats() {
+		setStrength(0);
+		setDexturity(0);
+		setConstitution(0);
+		setIntelligence(0);
+		setWisdom(0);
+		setCharisma(0);
+	}
+	public void setM(int[] s) {
+		setStrength(s[0]);
+		setDexturity(s[1]);
+		setConstitution(s[2]);
+		setIntelligence(s[3]);
+		setWisdom(s[4]);
+		setCharisma(s[5]);
+	}
+	public int getStrength() {
+		return Strength;
+	}
+	public void setStrength(int strength) {
+		Strength = strength;
+	}
+	public int getDexturity() {
+		return Dexturity;
+	}
+	public void setDexturity(int dexturity) {
+		Dexturity = dexturity;
+	}
+	public int getConstitution() {
+		return Constitution;
+	}
+	public void setConstitution(int constitution) {
+		Constitution = constitution;
+	}
+	public int getIntelligence() {
+		return Intelligence;
+	}
+	public void setIntelligence(int intelligence) {
+		Intelligence = intelligence;
+	}
+	public int getWisdom() {
+		return Wisdom;
+	}
+	public void setWisdom(int wisdom) {
+		Wisdom = wisdom;
+	}
+	public int getCharisma() {
+		return Charisma;
+	}
+	public void setCharisma(int charisma) {
+		Charisma = charisma;
+	}
+}
