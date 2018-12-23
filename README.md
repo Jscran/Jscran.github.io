@@ -1,1 +1,1 @@
-# Jscran.github.io
+# Current Progress is in pre-alpha. The game basic system are created and ready to be tested. However, at current progress late alpha will be available at end of next week. Playable verson will be within a view days.
